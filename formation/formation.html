@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="image/x-icon" href="../public/images/logo/logo.jpg">
+    <title>Formation</title>
+    <!--CDN Bootstrap--> <!-- ctr + f-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+
+    <!--CDN Icone Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.12.1/font/bootstrap-icons.min.css">
+
+    <!--CSS File-->
+    <link rel="stylesheet" href="../public/css/main.css">  
+    <link rel="stylesheet" href="formation.css">  
+
+
+    <!--Font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body> 
+    <!--Section Scroll Top-->
+    <div id="progress">
+        <span id="progressvalue">&#x1F815</span> <!--Valeur qui va s'afficher sur le progress-->
+    </div>
+    <!--Section Menu--> 
+    <div class="container-menu navContainer" id="accueil"> <!--Conteneur de menu-->
+        <!--First Menu-->
+        <div class="first-menu">
+            <div class="left-icone">         <!-- p*3 -->
+                <p class="d-inline">
+                    <i class="bi bi-telephone"></i>
+                    77631 92 00                             
+                </p> 
+                <p  class="d-inline">
+                    <i class="bi bi-envelope"></i>
+                    alladna6002@gmail.com                                                      
+                </p>
+                <p  class="d-inline">
+                    <i class="bi bi-geo-alt"></i>
+                    Sénégal,Dakar                                       
+                </p>
+            </div>
+            <div class="right-icone">
+                <i class="bi bi-facebook"></i>                              
+                <i class="bi bi-youtube"></i>
+                <i class="bi bi-linkedin"></i>
+                <i class="bi bi-twitter"></i>
+            </div>
+        </div>      
+
+          <!--Second Menu-->
+        <div class="second-menu">
+                
+                <!--Logo-->
+                <div class="logo">
+                    <a href="../index.html">
+                        <img src="../public/images/logo/logo.jpg" alt="logo">
+                    </a>
+                </div>
+
+                <!--Menu-->
+                <div class="menu-links">
+                        <ul>
+                            <li>
+                                <a href="../index.html" >Accueil</a> <!--#acceuil signifie balise avec un id accueil-->
+                            </li>
+
+                            <li>
+                                <a href="#formations" class="active">Formation</a>
+                            </li>
+
+                            <li>
+                                <a href="../article/article.html">Article</a>
+                            </li>
+
+                            <li>
+                                <a href="../contact/contact.html">Contact</a>
+                            </li>
+                        </ul>
+                </div>
+        </div>
+    </div>
+
+    <!--Section Banière-->
+    <div class="container-baniere-formation"> <!--Conteneur de banière-->
+        <div class="text-baniere">
+        <h1 id="animated-text"></h1>
+            <p>Devenez Un <span style="color: var(--second-color);">Pionner</span> De l'Univers Digital</p>
+            <!--Bouton Nos formations-->
+            <button class="cta">
+                <span class="span"> <a href="#formations">Nos Formations</a></span>
+                <span class="second">
+                    <svg width="50px" height="20px" viewBox="0 0 66 43" version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g id="arrow" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <path class="one" d="M40.1543933,3.89485454 L43.9763149,0.139296592 C44.1708311,-0.0518420739 44.4826329,-0.0518571125 44.6771675,0.139262789 L65.6916134,20.7848311 C66.0855801,21.1718824 66.0911863,21.8050225 65.704135,22.1989893 C65.7000188,22.2031791 65.6958657,22.2073326 65.6916762,22.2114492 L44.677098,42.8607841 C44.4825957,43.0519059 44.1708242,43.0519358 43.9762853,42.8608513 L40.1545186,39.1069479 C39.9575152,38.9134427 39.9546793,38.5968729 40.1481845,38.3998695 C40.1502893,38.3977268 40.1524132,38.395603 40.1545562,38.3934985 L56.9937789,21.8567812 C57.1908028,21.6632968 57.193672,21.3467273 57.0001876,21.1497035 C56.9980647,21.1475418 56.9959223,21.1453995 56.9937605,21.1432767 L40.1545208,4.60825197 C39.9574869,4.41477773 39.9546013,4.09820839 40.1480756,3.90117456 C40.1501626,3.89904911 40.1522686,3.89694235 40.1543933,3.89485454 Z" fill="#FFFFFF">          
+                            </path>
+                            <path class="two" d="M20.1543933,3.89485454 L23.9763149,0.139296592 C24.1708311,-0.0518420739 24.4826329,-0.0518571125 24.6771675,0.139262789 L45.6916134,20.7848311 C46.0855801,21.1718824 46.0911863,21.8050225 45.704135,22.1989893 C45.7000188,22.2031791 45.6958657,22.2073326 45.6916762,22.2114492 L24.677098,42.8607841 C24.4825957,43.0519059 24.1708242,43.0519358 23.9762853,42.8608513 L20.1545186,39.1069479 C19.9575152,38.9134427 19.9546793,38.5968729 20.1481845,38.3998695 C20.1502893,38.3977268 20.1524132,38.395603 20.1545562,38.3934985 L36.9937789,21.8567812 C37.1908028,21.6632968 37.193672,21.3467273 37.0001876,21.1497035 C36.9980647,21.1475418 36.9959223,21.1453995 36.9937605,21.1432767 L20.1545208,4.60825197 C19.9574869,4.41477773 19.9546013,4.09820839 20.1480756,3.90117456 C20.1501626,3.89904911 20.1522686,3.89694235 20.1543933,3.89485454 Z" fill="#FFFFFF">
+                            </path>
+                            <path class="three" d="M0.154393339,3.89485454 L3.97631488,0.139296592 C4.17083111,-0.0518420739 4.48263286,-0.0518571125 4.67716753,0.139262789 L25.6916134,20.7848311 C26.0855801,21.1718824 26.0911863,21.8050225 25.704135,22.1989893 C25.7000188,22.2031791 25.6958657,22.2073326 25.6916762,22.2114492 L4.67709797,42.8607841 C4.48259567,43.0519059 4.17082418,43.0519358 3.97628526,42.8608513 L0.154518591,39.1069479 C-0.0424848215,38.9134427 -0.0453206733,38.5968729 0.148184538,38.3998695 C0.150289256,38.3977268 0.152413239,38.395603 0.154556228,38.3934985 L16.9937789,21.8567812 C17.1908028,21.6632968 17.193672,21.3467273 17.0001876,21.1497035 C16.9980647,21.1475418 16.9959223,21.1453995 16.9937605,21.1432767 L0.15452076,4.60825197 C-0.0425130651,4.41477773 -0.0453986756,4.09820839 0.148075568,3.90117456 C0.150162624,3.89904911 0.152268631,3.89694235 0.154393339,3.89485454 Z" fill="#FFFFFF">
+                            </path>
+                        </g>
+                    </svg>
+                </span>
+            </button> 
+        </div>  
+    </div>
+     
+
+    <!--Section formation-->        
+    <div class="container-realisation container" id="formations"> <!--Conteneur de formation-->
+        <!--Titre-->
+        <div class="titre-section" style="padding-top: 50px; margin-top: -60px;">
+            <h3 >Formations</h3>
+            <span></span>
+        </div>
+        <!--Contenue-->
+        <div class="row g-4"> <!--  Espacement H et V de 4 px entre les diff elements -->
+            <!--formation 1-->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="../public/images/formations/php.png" class="card-img-top" alt="formation 1">
+                    <div class="card-body">
+                        <h5 class="card-title">PHP de A à Z : Créez des Sites Dynamiques et Interactifs</h5>
+                        <p class="card-text">
+                           Apprenez à maîtriser PHP, le langage derrière des millions de sites web, pour créer des applications dynamiques et connectées à des bases de données...
+
+                        </p>
+                        <button  class="btn btn-primary btn-modal-article"  data-bs-target="#realisationModal"
+                            data-image="../public/images/formations/"
+                            data-title="PHP de A à Z : Créez des Sites Dynamiques et Interactifs..."
+                            data-description="Au programme : <br>
+                                Les bases du langage : syntaxe, variables, conditions, boucles, fonctions.
+                                La manipulation des formulaires et des sessions utilisateur.
+                                L'interaction avec les bases de données MySQL via PDO ou MySQLi.
+                                La gestion des erreurs, la sécurité (injections SQL, XSS) et les bonnes pratiques.
+                                L'organisation du code avec la programmation orientée objet (POO).
+                                L'introduction aux architectures MVC et aux frameworks comme Laravel.
+                                Des projets concrets comme un blog, un système d'authentification ou un panier e-commerce.">
+                            <a  class="text-white"  href="../details/detail.html">
+                                En savoir plus
+                            </a>
+                        </button> 
+                    </div>
+                </div>      
+            </div>
+
+            <!--formation 2-->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="../public/images/formations/data_mining.jpg" class="card-img-top" alt="formation 2">
+
+                    <div class="card-body">
+                        <h5 class="card-title">Maîtrisez le Data Mining : Explorez, Analysez, Prédisez</h5>
+                        <p class="card-text">
+                        Plongez dans l'univers fascinant de l'exploration de données pour en extraire de la valeur cachée...
+
+                        </p>
+                        <button class="btn btn-primary btn-modal-article" data-bs-toggle="modal" data-bs-target="#realisationModal"
+                        data-image="../public/images/formations/data_mining.jpg"
+                        data-title="Maîtrisez le Data Mining : Explorez, Analysez, Prédisez"
+                        data-description="Cette formation vous guide à travers : <br>
+                            Les fondements du data mining et ses applications dans la prise de décision.
+                            Les techniques de classification, clustering et détection d'anomalies.
+                            L'utilisation d'algorithmes populaires comme K-means, C4.5, Apriori et Random Forest.
+                            L'analyse de données avec des outils comme R, Python (pandas, scikit-learn) et Weka.
+                            Des études de cas concrets : marketing, finance, santé, réseaux sociaux…
+                            Apprenez à transformer des masses de données brutes en informations précieuses pour anticiper les comportements, améliorer les performances et innover. 💡📊">
+                        En savoir plus
+                        </button> 
+                    </div>
+                </div>           
+            </div>
+
+            <!--formation 3-->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="../public/images/formations/devops.png" class="card-img-top" alt="formation 3">
+
+                    <div class="card-body">
+                        <h5 class="card-title"> Devenez un Expert DevOps : Automatisation et Déploiement</h5>
+                        <p class="card-text">
+                         Découvrez comment transformer vos processus de développement logiciel avec les pratiques DevOps...
+                        </p>
+                        <button class="btn btn-primary btn-modal-article" data-bs-toggle="modal" data-bs-target="#realisationModal"
+                            data-image="../public/images/formations/devops.png"
+                            data-title=" Devenez un Expert DevOps : Automatisation et Déploiement"
+                            data-description=" Description : <br>
+                                Découvrez comment transformer vos processus de développement logiciel avec les pratiques DevOps. Ce cours inclut :
+                                Les bases des pipelines CI/CD avec Jenkins et GitLab.
+                                La gestion de conteneurs avec Docker et Kubernetes.
+                                L'utilisation d'outils comme Ansible et Terraform pour l'automatisation.
+                                La surveillance et le suivi des performances avec Prometheus et Grafana.
+                                Des projets concrets pour gérer l'intégration et le déploiement d'applications en temps réel.
+                                ✅ Collaboration renforcée, ⚙️ processus fluides, 🚀 livraisons accélérées.">
+                            En savoir plus
+                        </button> 
+                    </div>
+                </div>           
+            </div>
+
+            <!--formation 4-->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="../public/images/formations/java.avif" class="card-img-top" alt="formation 4">
+
+                    <div class="card-body">
+                        <h5 class="card-title"> Devenez Développeur Java : De la Programmation Orientée Objet aux Applications Réelles</h5>
+                        <p class="card-text">
+                       Apprenez à maîtriser l'un des langages les plus utilisés au monde, solide, portable et orienté entreprise...
+                        </p>
+                        <button class="btn btn-primary btn-modal-article" data-bs-toggle="modal" data-bs-target="#realisationModal"
+                        data-image="../public/images/formations/java.avif"
+                        data-title=" Devenez Développeur Java : De la Programmation Orientée Objet aux Applications Réelles"
+                        data-description=" Cette formation vous propose : <br>
+                            Les bases du langage Java : syntaxe, types, boucles, conditions.
+                            La programmation orientée objet : classes, héritage, encapsulation, polymorphisme.
+                            La gestion des erreurs avec les exceptions et le débogage.
+                            Le développement d'interfaces graphiques avec JavaFX ou Swing.
+                            L'accès aux bases de données avec JDBC.
+                            L'introduction au développement web avec Servlets et JSP.
+                            Que vous soyez débutant ou en renforcement, Java n'aura plus de secrets pour vous 💻☕..">
+                        En savoir plus
+                        </button> 
+                    </div>
+                </div>           
+            </div>
+
+            <!--formation 5-->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="../public/images/formations/js.png" class="card-img-top" alt="formation 5">
+
+                    <div class="card-body">
+                    <h5 class="card-title">Devenez Maître du JavaScript : Dynamisez vos Sites Web et Applications</h5>
+                    <p class="card-text">
+                  Découvrez le langage incontournable du web et apprenez à créer des interfaces interactives et réactives...
+                    </p>
+                    <button class="btn btn-primary btn-modal-article" data-bs-toggle="modal" data-bs-target="#realisationModal"
+                    data-image="../public/images/formations/php.png"
+                    data-title="Devenez Maître du JavaScript : Dynamisez vos Sites Web et Applications"
+                    data-description="Cette formation comprend : <br>
+                        Les fondamentaux de JavaScript : variables, fonctions, boucles, conditions.
+                        La manipulation du DOM pour rendre vos pages vivantes.
+                        La gestion des événements et des formulaires.
+                        L'approche asynchrone avec les promises, async/await, et les requêtes API (AJAX / Fetch).
+                        L'introduction à ES6+ et aux modules modernes.
+                        Des projets concrets comme une calculatrice, un mini-jeu ou une app météo.
+                        Une ouverture vers les frameworks : React, Vue ou Node.js pour aller plus loin.
+                        Parfait pour tous ceux qui veulent passer d'un simple site à une vraie expérience utilisateur 🌐⚡.">
+                    En savoir plus
+                    </button> 
+                    </div>
+                </div>           
+            </div>
+
+            
+            <!--formation 6-->
+            <div class="col-md-4">
+                <div class="card">
+                 <img src="../public/images/formations/python.jpg" class="card-img-top" alt="formation 6">
+
+                    <div class="card-body">
+                        <h5 class="card-title">Devenez Développeur Python : Polyvalence, Simplicité et Puissance</h5>
+                        <p class="card-text">
+                           Apprenez Python, le langage préféré des débutant et des pros...
+                        </p>
+                        <button class="btn btn-primary btn-modal-article" data-bs-toggle="modal" data-bs-target="#realisationModal"
+                        data-image="../public/images/formations/python.jpg"
+                        data-title="Devenez Développeur Python : Polyvalence, Simplicité et Puissance"
+                            data-description="Simple à lire, puissant à utiliser, il s’adapte à presque tout. Cette formation couvre : <br>
+                            Les bases du langage : variables, types, conditions, boucles, fonctions.
+                            Les structures de données : listes, dictionnaires, tuples, ensembles.
+                            La programmation orientée objet (POO) pour structurer votre code proprement.
+                            L'automatisation de tâches et le traitement de fichiers.
+                            L'accès aux bases de données avec SQLite et SQLAlchemy.
+                            L'introduction à des bibliothèques populaires :
+                            Pandas pour l'analyse de données,
+                            Matplotlib pour les graphiques,
+                            Flask pour créer une API ou une app web
+                            Des projets concrets : mini-CRM, script d'automatisation, dashboard interactif.
+                            🐍 Que ce soit pour le web, la data, l'IA ou l'automatisation, Python est votre allié universel.">
+                        En savoir plus
+                        </button> 
+                    </div> <span id="equipe"></span>
+                </div>           
+            </div>
+        </div>        
+    </div>
+
+    <!--Section Pagination-->
+    <nav aria-label="Page navigation" class="Pagination-link">
+    <ul class="pagination justify-content-center">
+        <li class="disabled">
+        <a class="page-link">Previous</a>
+        </li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="disabled">
+        <a class="page-link">Next</a>
+        </li>
+    </ul>
+    </nav>
+
+    <!--Section Footer-->
+    <div class="footer"> <!--Conteneur complet de footer-->
+        <div class="container-footer"> <!--Conteneur de Footer-->
+            <!--Réseau Social-->
+            <div class="footer1"> 
+                <h3>Darray<span>Technologie</span></h3>
+                <p>
+                Transformer vos idées en solutions technologiques innovantes.
+                </p>
+                <div class="content-sociaux">
+                    <div class="icon-social d-inline">
+                        <i class="bi bi-instagram"></i>
+                    </div>
+
+                    <div class="icon-social d-inline">
+                        <i class="bi bi-facebook"></i>
+                    </div>
+
+                    <div class="icon-social d-inline">
+                        <i  class="bi bi-youtube"></i>
+                    </div>
+
+                    <div class="icon-social d-inline">
+                        <i  class="bi bi-linkedin"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!--Liens utiles -->
+            <div class="footer2"> 
+                <h3>Liens utiles</h3>
+                <p>
+                    <a href="#">Nos formations</a>
+                </p>
+                <p>
+                    <a href="#">Nos politiques de confidentialité</a>
+                </p>
+                <p>
+                    <a href="#">Politique d'utilisation des cookies</a>
+                </p>
+                <p>
+                    <a href="#">Condition générale d'utilisation</a>
+                </p>
+            </div>
+
+            <!--Nous contacter-->
+            <div class="footer3"> 
+                <h3>Nous contacter</h3>
+                <p>
+                    <a href="mailto: alladna6002@gmail.com">
+                        <i class="bi bi-enveloppe"></i>
+                        alladna6002@gmail.com
+                    </a>
+                </p>
+                <p>
+                    <a href="#">Dakar, Sandaga</a>
+                </p>
+                <p>
+                    <a href="#">
+                        <i class="bi bi-telephone"></i>
+                        +221 77 631 92 00
+                    </a>
+                </p>
+                <p>
+                    <a href="#">
+                        <i class="bi bi-telephone"></i>
+                        +221 76 145 57 73
+                    </a>
+                </p>
+            </div>
+
+            <!--Section script-->
+            <div class="footer4">
+                <h3>Newsletter</h3>
+                <Form action="#" method="post"  id="Newsletter">
+                    <input type="email" required class="form-control" placeholder="Entrer votre e-mail">
+                    <button type="submit" class="btn btn-suscribe">S'inscrire</button>
+                </Form>
+            </div>
+        </div>
+        <div class="text-secondary text-center copyright">
+            &copy; copyright Darray Technologie - 2025 - Fait avec <i class="fa-regular fa-heart text-danger"></i> et beaucoup de <i class="fa-solid fa-mug-saucer text-danger"></i> par Djibi Seck
+        </div>
+    </div>
+    <!-- Section Modal Détails-->
+    <!-- Modal -->
+    <div class="modal fade" id="realisationModal" tabindex="-1" aria-labelledby="realisationModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+        <!-- Header -->
+        <div class="modal-header">
+        <h1 class="modal-title fs-5 fw-bold" id="realisationModalLabel">Détails de la formation :</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <!-- Body -->
+        <div class="modal-body">
+            <img id="modal-image" src="" width="90px" height="90px" class="img-fluid mb-3" alt="">
+            <h5 id="modal-title"></h5>
+            <p id="modal-description"></p>
+        </div>
+        <!-- Footer -->
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+        </div> 
+        
+        </div>
+    </div>
+    </div>
+
+  
+    <!--Section script-->
+    <script src="../public/js/progress.js"></script>
+    <script src="../public/js/nothidemodal.js"></script>
+    <script src="../public/js/setDataModal.js"></script>
+    <script src="../public/js/formation.js"></script>
+
+    
+    </script>
+
+</body>
+</html>
+
