@@ -1,0 +1,45 @@
+ /***********Section Banière*****************/
+.container-baniere-article{
+  margin-top: 67px; /**/
+  width: 100%;
+  background-image: url("../public/images/bannieres/banner_contact.png");
+  height: 500px;
+  background-size: cover; /*empeche que l'image déborde*/
+}
+.text-baniere{
+    position: absolute;
+    top: 25%;
+    left: 3%;
+}
+.text-baniere h1{
+  font-size: 9vh;
+  font-style: 7.5vh;
+  font-weight: 700;
+}
+.text-baniere p{
+  font-size: 3vh;
+  font-style: italic;
+}
+.modal-body img{
+    width: 100%;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    margin-bottom: 13px;
+}
+/********** Pagination et articles ******* */
+.pagination-link{
+  margin-top: 7vh;
+}
+.page-item a{
+  background-color: var(--main-color);
+  color: var(--white-color);
+} 
+.btn-modal-article{
+  background-color: var(--main-color);
+  color: var(--white-color);
+}
+.cta a{
+  color: var(--white-color);
+}

@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="image/x-icon" href="../public/images/logo/logo.jpg">
+    <title>Article</title>
+    <!--CDN Bootstrap--> <!-- ctr + f-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+
+    <!--CDN Icone Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.12.1/font/bootstrap-icons.min.css">
+
+    <!--CSS File-->
+    <link rel="stylesheet" href="../public/css/main.css">  
+    <link rel="stylesheet" href="article.css">  
+
+
+    <!--Font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body> 
+    <!--Section Scroll Top-->
+    <div id="progress">
+        <span id="progressvalue">&#x1F815</span> <!--Valeur qui va s'afficher sur le progress-->
+    </div>
+    <!--Section Menu--> 
+    <div class="container-menu navContainer" id="accueil"> <!--Conteneur de menu-->
+        <!--First Menu-->
+        <div class="first-menu">
+            <div class="left-icone">         <!-- p*3 -->
+                <p class="d-inline">
+                    <i class="bi bi-telephone"></i>
+                    77631 92 00                             
+                </p> 
+                <p  class="d-inline">
+                    <i class="bi bi-envelope"></i>
+                    alladna6002@gmail.com                                                      
+                </p>
+                <p  class="d-inline">
+                    <i class="bi bi-geo-alt"></i>
+                    Sénégal,Dakar                                       
+                </p>
+            </div>
+            <div class="right-icone">
+                <i class="bi bi-facebook"></i>                              
+                <i class="bi bi-youtube"></i>
+                <i class="bi bi-linkedin"></i>
+                <i class="bi bi-twitter"></i>
+            </div>
+        </div>      
+
+          <!--Second Menu-->
+        <div class="second-menu">
+                
+                <!--Logo-->
+                <div class="logo">
+                    <a href="../index.html">
+                        <img src="../public/images/logo/logo.jpg" alt="logo">
+                    </a>
+                </div>
+
+                <!--Menu-->
+                <div class="menu-links">
+                        <ul>
+                            <li>
+                                <a href="../index.html">Accueil</a> <!--#acceuil signifie balise avec un id accueil-->
+                            </li>
+
+                             <li>
+                                <a href="#articles" class="active">Article</a>
+                            </li>
+
+                            <li>
+                                <a href="../formation/formation.html">Formation</a>
+                            </li>
+
+                            <li>
+                                <a href="../contact/contact.html">Contact</a>
+                            </li>
+                        </ul>
+                </div>
+        </div>
+    </div>
+
+    <!--Section Banière-->
+    <div class="container-baniere-article"> <!--Conteneur de banière-->
+        <div class="text-baniere">
+        <h1 id="animated-text"></h1>
+            <p>L'<span style="color: var(--second-color);">Innovation</span> au Service de Votre Réussite Digital</p>
+            <!--Bouton Nos Articles-->
+            <button class="cta">
+                <span class="span"> <a href="#articles">Nos Articles</a></span>
+                <span class="second">
+                    <svg width="50px" height="20px" viewBox="0 0 66 43" version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g id="arrow" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <path class="one" d="M40.1543933,3.89485454 L43.9763149,0.139296592 C44.1708311,-0.0518420739 44.4826329,-0.0518571125 44.6771675,0.139262789 L65.6916134,20.7848311 C66.0855801,21.1718824 66.0911863,21.8050225 65.704135,22.1989893 C65.7000188,22.2031791 65.6958657,22.2073326 65.6916762,22.2114492 L44.677098,42.8607841 C44.4825957,43.0519059 44.1708242,43.0519358 43.9762853,42.8608513 L40.1545186,39.1069479 C39.9575152,38.9134427 39.9546793,38.5968729 40.1481845,38.3998695 C40.1502893,38.3977268 40.1524132,38.395603 40.1545562,38.3934985 L56.9937789,21.8567812 C57.1908028,21.6632968 57.193672,21.3467273 57.0001876,21.1497035 C56.9980647,21.1475418 56.9959223,21.1453995 56.9937605,21.1432767 L40.1545208,4.60825197 C39.9574869,4.41477773 39.9546013,4.09820839 40.1480756,3.90117456 C40.1501626,3.89904911 40.1522686,3.89694235 40.1543933,3.89485454 Z" fill="#FFFFFF">          
+                            </path>
+                            <path class="two" d="M20.1543933,3.89485454 L23.9763149,0.139296592 C24.1708311,-0.0518420739 24.4826329,-0.0518571125 24.6771675,0.139262789 L45.6916134,20.7848311 C46.0855801,21.1718824 46.0911863,21.8050225 45.704135,22.1989893 C45.7000188,22.2031791 45.6958657,22.2073326 45.6916762,22.2114492 L24.677098,42.8607841 C24.4825957,43.0519059 24.1708242,43.0519358 23.9762853,42.8608513 L20.1545186,39.1069479 C19.9575152,38.9134427 19.9546793,38.5968729 20.1481845,38.3998695 C20.1502893,38.3977268 20.1524132,38.395603 20.1545562,38.3934985 L36.9937789,21.8567812 C37.1908028,21.6632968 37.193672,21.3467273 37.0001876,21.1497035 C36.9980647,21.1475418 36.9959223,21.1453995 36.9937605,21.1432767 L20.1545208,4.60825197 C19.9574869,4.41477773 19.9546013,4.09820839 20.1480756,3.90117456 C20.1501626,3.89904911 20.1522686,3.89694235 20.1543933,3.89485454 Z" fill="#FFFFFF">
+                            </path>
+                            <path class="three" d="M0.154393339,3.89485454 L3.97631488,0.139296592 C4.17083111,-0.0518420739 4.48263286,-0.0518571125 4.67716753,0.139262789 L25.6916134,20.7848311 C26.0855801,21.1718824 26.0911863,21.8050225 25.704135,22.1989893 C25.7000188,22.2031791 25.6958657,22.2073326 25.6916762,22.2114492 L4.67709797,42.8607841 C4.48259567,43.0519059 4.17082418,43.0519358 3.97628526,42.8608513 L0.154518591,39.1069479 C-0.0424848215,38.9134427 -0.0453206733,38.5968729 0.148184538,38.3998695 C0.150289256,38.3977268 0.152413239,38.395603 0.154556228,38.3934985 L16.9937789,21.8567812 C17.1908028,21.6632968 17.193672,21.3467273 17.0001876,21.1497035 C16.9980647,21.1475418 16.9959223,21.1453995 16.9937605,21.1432767 L0.15452076,4.60825197 C-0.0425130651,4.41477773 -0.0453986756,4.09820839 0.148075568,3.90117456 C0.150162624,3.89904911 0.152268631,3.89694235 0.154393339,3.89485454 Z" fill="#FFFFFF">
+                            </path>
+                        </g>
+                    </svg>
+                </span>
+            </button>
+        </div>
+    </div>
+      <span id="articles"></span>
+
+    <!--Section Article-->        
+    <div class="container-realisation container"> <!--Conteneur de Article-->
+        <!--Titre-->
+        <div class="titre-section" style="padding-top: 50px;">
+            <h3 >Articles</h3>
+            <span></span>
+        </div>
+        <!--Contenue-->
+        <div class="row g-4"> <!--  Espacement H et V de 4 px entre les diff elements -->
+            <!--Article 1-->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="../public/images/articles/article1.jpg" class="card-img-top" alt="Article 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Découverte du Data Mining :</h5>
+                        <p class="card-text">
+                            Introduction : le Data Mining, ou exploration des données est un processus clé pour extraire des insights précieur. Mais comment ça marche?
+
+                        </p>
+                        <button class="btn btn-primary btn-modal-article" data-bs-toggle="modal" data-bs-target="#realisationModal"
+                            data-image="../public/images/articles/article1.jpg"
+                            data-title="Découverte du Data Mining :"
+                            data-description=" Définition et importance du Data Mining :  <br>
+                                -Les techniques populaires : clustering, classification et association. <br>
+                                -Exemples d'utilisation dans le marketing et la prédiction des tendances.  <br>
+                                -Les outils phares comme Python (scikät-learn) et R.  <br>
+                                -Étude de cas 1 Analyse des données de ventes pour prédire les comportenents des clients.">
+                            En savoir plus
+                        </button> 
+                    </div>
+                </div>      
+            </div>
+
+            <!--Article 2-->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="../public/images/articles/article2.jpg" class="card-img-top" alt="Article 2">
+
+                    <div class="card-body">
+                        <h5 class="card-title">Pourquoi Devops Révolutionne le Développement Logiciel Moderne</h5>
+                        <p class="card-text">
+                        Introduction : Devops n'est pas qu'une méthodologie, c'est une philosophie qui rapproche les équipes de développesent et d'opérations
+
+                        </p>
+                        <button class="btn btn-primary btn-modal-article" data-bs-toggle="modal" data-bs-target="#realisationModal"
+                        data-image="../public/images/articles/article2.jpg"
+                        data-title="Pourquoi Devops Révolutionne le Développement Logiciel Moderne"
+                        data-description="Définir Devops et ses avantages : rapidité, fiabilité et collaboration.
+                            Les outils incontournables : Docker, Kubernetes, Jenkins et Ansible.
+                            Comment désarrer avec un pipeline CI/CD ?
+                            Étude de cas : une transformation réussie grace à Devops dans une entreprise.
+                            Les défis courants et comment les surmonter.">
+                        En savoir plus
+                        </button> 
+                    </div>
+                </div>           
+            </div>
+
+            <!--Article 3-->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="../public/images/articles/article3.jpg" class="card-img-top" alt="Article 3">
+
+                    <div class="card-body">
+                        <h5 class="card-title">Java : Le Pilier Incontournable du Développement d'Application d'entreprise</h5>
+                        <p class="card-text">
+                           Depuis des décennies, Java est le langage préféré pour les applications robustes et évolutives.
+                        </p>
+                        <button class="btn btn-primary btn-modal-article" data-bs-toggle="modal" data-bs-target="#realisationModal"
+                            data-image="../public/images/articles/article3.jpg"
+                            data-title="Java : Le Pilier Incontournable du Développement d'Application d'entreprise"
+                            data-description="L'histoire de Java : pourquoi il reste si pertinent. <br>
+                            Les frameworks populaires : Spring Boot et Hibernate. <br>
+                            Les nouvelles fonctionnalités de Java 21 et leur impact. <br>
+                            Exemples d'applications atillisant Java : tystines bancaires, pestion d'entrepöts, etc. <br>
+                            Les perspectives d'avenir pour Java dans le cloud et L'IA.">
+                            En savoir plus
+                        </button> 
+                    </div>
+                </div>           
+            </div>
+
+            <!--Article 4-->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="../public/images/articles/article4.jpg" class="card-img-top" alt="Article 4">
+
+                    <div class="card-body">
+                        <h5 class="card-title">JavaScript Moderne : L'Épine Dorsale du Web Dynanique</h5>
+                        <p class="card-text">
+                        Javascript a évolué bien au-delà de simple langage pour les navigateurs, devenant un outil polyvalent pour le web
+                        </p>
+                        <button class="btn btn-primary btn-modal-article" data-bs-toggle="modal" data-bs-target="#realisationModal"
+                        data-image="../public/images/articles/article4.jpg"
+                        data-title="JavaScript Moderne : L'Épine Dorsale du Web Dynanique"
+                        data-description="Les bases de Javascript et son role dans le frontend et le backend.
+                            Les frameworks modernes : React, vue.js et Angular.
+                            Mode.js et son róle dans la révolution du développenent backend.
+                            Exemple pratique : Création d'une simple application de chat avec JavaScript et WebSocket, Les tendances actuelles comme Typescript et le Serverless.">
+                        En savoir plus
+                        </button> 
+                    </div>
+                </div>           
+            </div>
+
+            <!--Article 5-->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="../public/images/realisations/livraison.jpg" class="card-img-top" alt="Article 5">
+
+                    <div class="card-body">
+                    <h5 class="card-title">PHP en 2025 : Toujours Indispensable pour les Développeurs web</h5>
+                    <p class="card-text">
+                    Une plateforme mobile et web qui permet aux utilisateurs de commander des produits (repas, courses, colis…) auprès de commerçants ou de livreurs en temps réel.
+                    </p>
+                    <button class="btn btn-primary btn-modal-article" data-bs-toggle="modal" data-bs-target="#realisationModal"
+                    data-image="../public/images/realisations/livraison.jpg"
+                    data-title="PHP en 2025 : Toujours Indispensable pour les Développeurs web"
+                    data-description="pourquoi il est toujours pertinent pour les projets modernes.
+                        Les évolutions récentes du langage, notamment avec PHP 8.
+                        Comparaison entre PHP et d'autres langages pour le backend,
+                        Les frameworks puissants comme Laravel et Sysfong.
+                        Etudes de cas : Un site e-commerce performant construit avec PHP et Laravel.">
+                    En savoir plus
+                    </button> 
+                    </div>
+                </div>           
+            </div>
+
+            
+            <!--Article 6-->
+            <div class="col-md-4">
+                <div class="card">
+                 <img src="../public/images/articles/article6.jpg" class="card-img-top" alt="Article 6">
+
+                    <div class="card-body">
+                        <h5 class="card-title">Le Langage Universel au Coeur de l'Innovation technologique</h5>
+                        <p class="card-text">
+                            Avec sa simplicité et sa polyvalence, Python est devenu  incontournable dans des domaines alliant l'intelligence artificielle au Developpement Web.
+                        </p>
+                        <button class="btn btn-primary btn-modal-article" data-bs-toggle="modal" data-bs-target="#realisationModal"
+                        data-image="../public/images/articles/article6.jpg"
+                        data-title="Le Langage Universel au Coeur de l'Innovation technologique"
+                        data-description="Pourquoi Python est si populaire en 2025 ?
+                            Ses applications variées : Data-Science , IA, automatisation, et développesent web.
+                            Les librairies incontournables : Pandas, Tensorflow, Flask,
+                            et jango. <br>
+                            Exemple pratique : Construire une application de prédiction d’achats en ligne avec Python
+                            Les tendances futures :  Python dans l’IA et  le cloud computing.">
+                        En savoir plus
+                        </button> 
+                    </div> <span id="equipe"></span>
+                </div>           
+            </div>
+        </div>        
+    </div>
+
+    <!--Section Pagination-->
+    <nav aria-label="Page navigation" class="Pagination-link">
+    <ul class="pagination justify-content-center">
+        <li class="disabled">
+        <a class="page-link">Previous</a>
+        </li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="disabled">
+        <a class="page-link">Next</a>
+        </li>
+    </ul>
+    </nav>
+
+    <!--Section Footer-->
+    <div class="footer"> <!--Conteneur complet de footer-->
+        <div class="container-footer"> <!--Conteneur de Footer-->
+            <!--Réseau Social-->
+            <div class="footer1"> 
+                <h3>Darray<span>Technologie</span></h3>
+                <p>
+                Transformer vos idées en solutions technologiques innovantes.
+                </p>
+                <div class="content-sociaux">
+                    <div class="icon-social d-inline">
+                        <i class="bi bi-instagram"></i>
+                    </div>
+
+                    <div class="icon-social d-inline">
+                        <i class="bi bi-facebook"></i>
+                    </div>
+
+                    <div class="icon-social d-inline">
+                        <i  class="bi bi-youtube"></i>
+                    </div>
+
+                    <div class="icon-social d-inline">
+                        <i  class="bi bi-linkedin"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!--Liens utiles -->
+            <div class="footer2"> 
+                <h3>Liens utiles</h3>
+                <p>
+                    <a href="#">Nos formations</a>
+                </p>
+                <p>
+                    <a href="#">Nos politiques de confidentialité</a>
+                </p>
+                <p>
+                    <a href="#">Politique d'utilisation des cookies</a>
+                </p>
+                <p>
+                    <a href="#">Condition générale d'utilisation</a>
+                </p>
+            </div>
+
+            <!--Nous contacter-->
+            <div class="footer3"> 
+                <h3>Nous contacter</h3>
+                <p>
+                    <a href="mailto: alladna6002@gmail.com">
+                        <i class="bi bi-enveloppe"></i>
+                        alladna6002@gmail.com
+                    </a>
+                </p>
+                <p>
+                    <a href="#">Dakar, Sandaga</a>
+                </p>
+                <p>
+                    <a href="#">
+                        <i class="bi bi-telephone"></i>
+                        +221 77 631 92 00
+                    </a>
+                </p>
+                <p>
+                    <a href="#">
+                        <i class="bi bi-telephone"></i>
+                        +221 76 145 57 73
+                    </a>
+                </p>
+            </div>
+
+            <!--Section script-->
+            <div class="footer4">
+                <h3>Newsletter</h3>
+                <Form action="#" method="post"  id="Newsletter">
+                    <input type="email" required class="form-control" placeholder="Entrer votre e-mail">
+                    <button type="submit" class="btn btn-suscribe">S'inscrire</button>
+                </Form>
+            </div>
+        </div>
+        <div class="text-secondary text-center copyright">
+            &copy; copyright Darray Technologie - 2025 - Fait avec <i class="fa-regular fa-heart text-danger"></i> et beaucoup de <i class="fa-solid fa-mug-saucer text-danger"></i> par Djibi Seck
+        </div>
+    </div>
+    <!-- Section Modal Détails-->
+    <!-- Modal -->
+    <div class="modal fade" id="realisationModal" tabindex="-1" aria-labelledby="realisationModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+        <!-- Header -->
+        <div class="modal-header">
+        <h1 class="modal-title fs-5 fw-bold" id="realisationModalLabel">Détails de la Article :</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <!-- Body -->
+        <div class="modal-body">
+            <img id="modal-image" src="" width="90px" height="90px" class="img-fluid mb-3" alt="">
+            <h5 id="modal-title"></h5>
+            <p id="modal-description"></p>
+        </div>
+        <!-- Footer -->
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+        </div> 
+        
+        </div>
+    </div>
+    </div>
+
+  
+    <!--Section script-->
+    <script src="../public/js/article.js"></script>
+    <script src="../public/js/progress.js"></script>
+    <script src="../public/js/nothidemodal.js"></script>
+    <script src="../public/js/setDataModal.js"></script>
+
+    
+    </script>
+</body>
+</html>
+
